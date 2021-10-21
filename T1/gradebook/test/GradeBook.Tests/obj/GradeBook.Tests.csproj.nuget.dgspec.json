@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Z004ES4D\\Internship\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
+    "C:\\Users\\Z004ES4D\\Internship\\T1\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Z004ES4D\\Internship\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+    "C:\\Users\\Z004ES4D\\Internship\\T1\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Z004ES4D\\Internship\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectUniqueName": "C:\\Users\\Z004ES4D\\Internship\\T1\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "C:\\Users\\Z004ES4D\\Internship\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectPath": "C:\\Users\\Z004ES4D\\Internship\\T1\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "packagesPath": "C:\\Users\\Z004ES4D\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Z004ES4D\\Internship\\gradebook\\src\\GradeBook\\obj\\",
+        "outputPath": "C:\\Users\\Z004ES4D\\Internship\\T1\\gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Z004ES4D\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\Z004ES4D\\Internship\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {
+    "C:\\Users\\Z004ES4D\\Internship\\T1\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Z004ES4D\\Internship\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Z004ES4D\\Internship\\T1\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
         "projectName": "GradeBook.Tests",
-        "projectPath": "C:\\Users\\Z004ES4D\\Internship\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "projectPath": "C:\\Users\\Z004ES4D\\Internship\\T1\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
         "packagesPath": "C:\\Users\\Z004ES4D\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Z004ES4D\\Internship\\gradebook\\test\\GradeBook.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Z004ES4D\\Internship\\T1\\gradebook\\test\\GradeBook.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Z004ES4D\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Z004ES4D\\Internship\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
-                "projectPath": "C:\\Users\\Z004ES4D\\Internship\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+              "C:\\Users\\Z004ES4D\\Internship\\T1\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+                "projectPath": "C:\\Users\\Z004ES4D\\Internship\\T1\\gradebook\\src\\GradeBook\\GradeBook.csproj"
               }
             }
           }
