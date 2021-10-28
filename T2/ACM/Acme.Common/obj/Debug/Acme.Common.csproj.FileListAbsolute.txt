@@ -1,0 +1,6 @@
+C:\Users\Z004ES4D\Internship\T2\ACM\Acme.Common\bin\Debug\Acme.Common.dll
+C:\Users\Z004ES4D\Internship\T2\ACM\Acme.Common\bin\Debug\Acme.Common.pdb
+C:\Users\Z004ES4D\Internship\T2\ACM\Acme.Common\obj\Debug\Acme.Common.csproj.AssemblyReference.cache
+C:\Users\Z004ES4D\Internship\T2\ACM\Acme.Common\obj\Debug\Acme.Common.csproj.CoreCompileInputs.cache
+C:\Users\Z004ES4D\Internship\T2\ACM\Acme.Common\obj\Debug\Acme.Common.dll
+C:\Users\Z004ES4D\Internship\T2\ACM\Acme.Common\obj\Debug\Acme.Common.pdb
