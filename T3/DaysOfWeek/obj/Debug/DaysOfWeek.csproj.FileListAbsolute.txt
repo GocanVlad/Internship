@@ -1,0 +1,7 @@
+C:\Users\Z004ES4D\Internship\T3\DaysOfWeek\bin\Debug\DaysOfWeek.exe.config
+C:\Users\Z004ES4D\Internship\T3\DaysOfWeek\bin\Debug\DaysOfWeek.exe
+C:\Users\Z004ES4D\Internship\T3\DaysOfWeek\bin\Debug\DaysOfWeek.pdb
+C:\Users\Z004ES4D\Internship\T3\DaysOfWeek\obj\Debug\DaysOfWeek.csproj.AssemblyReference.cache
+C:\Users\Z004ES4D\Internship\T3\DaysOfWeek\obj\Debug\DaysOfWeek.csproj.CoreCompileInputs.cache
+C:\Users\Z004ES4D\Internship\T3\DaysOfWeek\obj\Debug\DaysOfWeek.exe
+C:\Users\Z004ES4D\Internship\T3\DaysOfWeek\obj\Debug\DaysOfWeek.pdb

@@ -1,0 +1,7 @@
+C:\Users\Z004ES4D\Internship\T3\ReadAllCountries\bin\Debug\ReadAllCountries.exe.config
+C:\Users\Z004ES4D\Internship\T3\ReadAllCountries\bin\Debug\ReadAllCountries.exe
+C:\Users\Z004ES4D\Internship\T3\ReadAllCountries\bin\Debug\ReadAllCountries.pdb
+C:\Users\Z004ES4D\Internship\T3\ReadAllCountries\obj\Debug\ReadAllCountries.csproj.AssemblyReference.cache
+C:\Users\Z004ES4D\Internship\T3\ReadAllCountries\obj\Debug\ReadAllCountries.csproj.CoreCompileInputs.cache
+C:\Users\Z004ES4D\Internship\T3\ReadAllCountries\obj\Debug\ReadAllCountries.exe
+C:\Users\Z004ES4D\Internship\T3\ReadAllCountries\obj\Debug\ReadAllCountries.pdb
