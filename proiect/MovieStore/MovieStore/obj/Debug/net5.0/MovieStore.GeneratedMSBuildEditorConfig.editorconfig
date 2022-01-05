@@ -6,5 +6,3 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = MovieStore
-build_property.ProjectDir = C:\Users\Z004ES4D\Documents\GitHub\siemens-dynamics365-internship-2021\MovieStore\MovieStore\

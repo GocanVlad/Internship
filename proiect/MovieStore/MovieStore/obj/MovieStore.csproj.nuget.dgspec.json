@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Z004ES4D\\Documents\\GitHub\\siemens-dynamics365-internship-2021\\MovieStore\\MovieStore\\MovieStore.csproj": {}
+    "E:\\OneDrive - Technical University of Cluj-Napoca\\Documents\\GitHub\\Internship\\proiect\\MovieStore\\MovieStore\\MovieStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Z004ES4D\\Documents\\GitHub\\siemens-dynamics365-internship-2021\\MovieStore\\MovieStore\\MovieStore.csproj": {
+    "E:\\OneDrive - Technical University of Cluj-Napoca\\Documents\\GitHub\\Internship\\proiect\\MovieStore\\MovieStore\\MovieStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Z004ES4D\\Documents\\GitHub\\siemens-dynamics365-internship-2021\\MovieStore\\MovieStore\\MovieStore.csproj",
+        "projectUniqueName": "E:\\OneDrive - Technical University of Cluj-Napoca\\Documents\\GitHub\\Internship\\proiect\\MovieStore\\MovieStore\\MovieStore.csproj",
         "projectName": "MovieStore",
-        "projectPath": "C:\\Users\\Z004ES4D\\Documents\\GitHub\\siemens-dynamics365-internship-2021\\MovieStore\\MovieStore\\MovieStore.csproj",
-        "packagesPath": "C:\\Users\\Z004ES4D\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Z004ES4D\\Documents\\GitHub\\siemens-dynamics365-internship-2021\\MovieStore\\MovieStore\\obj\\",
+        "projectPath": "E:\\OneDrive - Technical University of Cluj-Napoca\\Documents\\GitHub\\Internship\\proiect\\MovieStore\\MovieStore\\MovieStore.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\OneDrive - Technical University of Cluj-Napoca\\Documents\\GitHub\\Internship\\proiect\\MovieStore\\MovieStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Z004ES4D\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
