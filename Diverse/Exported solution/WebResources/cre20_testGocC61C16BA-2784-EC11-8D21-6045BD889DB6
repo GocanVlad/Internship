@@ -1,0 +1,85 @@
+var Sdk = window.Sdk || {};
+(function () {
+  // Code to run in the form OnLoad event
+  this.formOnLoad = function (executionContext) {
+    var formContext = executionContext.getFormContext();
+    if (formContext.getAttribute("aug_client").getValue()) {
+      formContext.getControl("aug_brand").setDisabled(false);
+      formContext.getControl("aug_description").setDisabled(false);
+    }
+
+    if (!formContext.getAttribute("aug_tva").getValue())
+      formContext.getControl("aug_totalprice").setVisible(false);
+  };
+
+  // Code to run in the column OnChange event
+  this.attributeOnChange = function (executionContext) {
+    var formContext = executionContext.getFormContext();
+
+    function getTotalPrice() {
+      var quantityPrice =
+        formContext.getAttribute("aug_price").getValue() *
+        formContext.getAttribute("aug_quantity").getValue();
+      var totalPrice =
+        quantityPrice +
+        (formContext.getAttribute("aug_tva").getValue() * quantityPrice) / 100;
+
+      formContext.getAttribute("aug_totalprice").setValue(totalPrice);
+    }
+    getTotalPrice();
+
+    if (
+      !formContext.getAttribute("aug_tva").getValue() ||
+      formContext.getAttribute("aug_tva").getValue() < 1 ||
+      formContext.getAttribute("aug_tva").getValue() > 25
+    ) {
+      formContext.getControl("aug_totalprice").setVisible(false);
+      formContext.ui.setFormNotification(
+        "TVA Invalid",
+        "ERROR",
+        "formInvalidTva"
+      );
+      formContext
+        .getControl("aug_tva")
+        .setNotification("Valoare TVA poate fi intre 1 si 25", "invalidTva");
+    } else {
+      formContext.getControl("aug_totalprice").setVisible(true);
+      formContext.ui.clearFormNotification("formInvalidTva");
+      formContext.getControl("aug_tva").clearNotification("invalidTva");
+    }
+    if (!formContext.getAttribute("aug_totalprice").getValue()) {
+      formContext.ui.setFormNotification(
+        "Total price invalid",
+        "ERROR",
+        "formInvalidTotalPrice"
+      );
+    } else formContext.ui.clearFormNotification("formInvalidTotalPrice");
+  };
+
+  // Code to run in the form OnSave event
+  this.formOnSave = function (executionContext) {
+    var formContext = executionContext.getFormContext();
+    debugger;
+    var totalPrice = formContext.getAttribute("aug_totalprice").getValue();
+
+    if (totalPrice < 1500) {
+      executionContext.getEventArgs().preventDefault();
+      var confirmStrings = {
+        text: "Valoarea este mai mica de 1500. Doriti sa continuati salvarea datelor?",
+        title: "Confirm",
+        confirmButtonLabel: "Ok",
+        cancelButtonLabel: "Cancel",
+      };
+      Xrm.Navigation.openConfirmDialog(confirmStrings, null).then(function (
+        success
+      ) {
+        if (success.confirmed) {
+          formContext.data.entity.save();
+          Xrm.Navigation.openAlertDialog({
+            text: "Record saved.",
+          });
+        }
+      });
+    }
+  };
+}.call(Sdk));
